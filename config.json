@@ -29,7 +29,7 @@
       "prompt_nonrag": "I will provide you with the schema for a MongoDB database. Your task is to convert a new natural language question into a MongoDB query that will retrieve the requested information from the database.\n\nHere is the schema for the MongoDB database:\n\n<schema>\n{{SCHEMA}}\n</schema>\n\nNow, here is the new question to convert into a MongoDB query:\n\n<question>\n{{QUESTION}}\n</question>\n\nThink through how to construct the appropriate MongoDB query to answer this question based on the provided schema. Write out your thought process in a <scratchpad>. \n\nThen, provide the final MongoDB query inside <query> tags. The query should be syntactically correct and fully functional to retrieve the requested data from the database.\n\nRemember to only use the fields and structure defined in the provided schema. If the question cannot be answered by the information in the database, say so."
     },
     "api_keys": {
-      "gemini_api_key": "AIzaSyB9VHr75vGE_X_Wf2mC5EsD5Jj9V6q5WLw",
+      "gemini_api_key": "your-gemini-api-key",
       "weaviate_api_key": "your-weaviate-api-key"
     },
     "default_settings": {
