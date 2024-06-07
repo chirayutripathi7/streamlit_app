@@ -14,7 +14,7 @@ with open('config.json', 'r') as f:
     config = json.load(f)
 
 
-os.environ['GOOGLE_API_KEY'] = config['api_keys']['gemini_api_key']
+# os.environ['GOOGLE_API_KEY'] = config['api_keys']['gemini_api_key']
 genai.configure(api_key = os.environ['GOOGLE_API_KEY'])
 
 
